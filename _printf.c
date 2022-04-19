@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -45,7 +46,3 @@ int _printf(const char *format, ...)
 	va_end(arguments);
 	return (count);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8c7431fa4c86b7afc950f1512f33c942f1d42324
