@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <limits.h>
+
 /**
  * main - Entry point
  *
@@ -9,15 +11,13 @@
 int main(void)
 {
 	int a;
-	int number;
 
-
-	number = 19912507;
-
-
-	a = _printf("%i, %d\n", number, number);
+	_printf("%R\n", "123");
+	a = _printf("%R\n", "hello");
+	_printf("%d\n", a);
+	a = printf("%s\n", "hello");
 	printf("%d\n", a);
-	a = _printf("% ");
+	a = _printf("%R\n", "Holberton school");
 	printf("%d\n", a);
 	return (0);
 }
