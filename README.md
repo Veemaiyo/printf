@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ###  Team Project
 # printf 
 
@@ -238,3 +239,6 @@ All the above options work well together.
 
 - Tinsaye Simeneh,
 -  David Musau
+=======
+My ALX printf collaboration project
+>>>>>>> parent of d87d00b... add second files
