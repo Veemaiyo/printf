@@ -1,1 +1,1 @@
-Will update this file later on. 
+This is the 0x11. C - printf project directory
